@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.19.1",
     "moment-timezone": "^0.5.13",
     "twilio": "^3.9.1",
     "underscore": "^1.8.3"

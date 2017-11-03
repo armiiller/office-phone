@@ -4,5 +4,9 @@
   "memory": 128,
   "timeout": 5,
   "role": "arn:aws:iam::000000000000:role/office-phone_lambda_function",
-  "environment": {}
+  "environment": {
+    "COMPANYNAME": "PagerTree",
+    "NUMBER": "+15555555555",
+    "SNSARN": "arn:aws:sns:us-west-2:000000000000:notify-me"
+  }
 }
