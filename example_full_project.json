@@ -1,0 +1,25 @@
+{
+  "name": "office-phone",
+  "description": "Work phone for business using Node.js, Apex, Twilio, and AWS Lambda",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::000000000000:role/office-phone_lambda_function",
+  "environment": {
+    "COMPANYNAME": "PagerTree",
+    "TIMEZONE": "America/Los_Angeles",
+    "HOUR_OPEN": "8",
+    "HOUR_CLOSE": "17",
+    "HOUR_FRIENDLY": "8 AM to 5 PM",
+    "DAYS": "1,2,3,4,5",
+    "DAYS_FRIENDLY": "Monday thru Friday",
+    "NUMBER": "+15555555555",
+    "VOICEURL": "https://<your_url>/phone-call-recording.mp3",
+    "NOANSWERURL": "https://<your_url>/no-answer.mp3",
+    "THANKSFORMESSAGEURL": "https://<your_url>/thanks-for-message.mp3",
+    "RECORDURL": "https://<gatewayid>.execute-api.<region>.amazonaws.com/production/record",
+    "RECORDINGSTATUSURL": "https://<gatewayid>.execute-api.<region>.amazonaws.com/production/recordstatus",
+    "DIALTIMEOUT": "15",
+    "MESSAGEMAXLENGTH": "30",
+    "SNSARN": "arn:aws:sns:<region>:000000000000:notify-me"
+  }
+}

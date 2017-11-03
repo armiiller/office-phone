@@ -7,6 +7,6 @@
   "environment": {
     "COMPANYNAME": "PagerTree",
     "NUMBER": "+15555555555",
-    "SNSARN": "arn:aws:sns:us-west-2:000000000000:notify-me"
+    "SNSARN": "arn:aws:sns:<region>:000000000000:notify-me"
   }
 }

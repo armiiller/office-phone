@@ -20,7 +20,7 @@ exports.handle = function(e, ctx, cb) {
   var voiceurl                = process.env.VOICEURL || null;
   var recordurl               = process.env.RECORDURL || '/record';
   var dialtimeout             = process.env.DIALTIMEOUT ? parseInt(process.env.DIALTIMEOUT) : 15;
-  var recordingstatuscallback = process.env.RECORDINGSTATUSCALLBACK || '/recordstatus';
+  var recordingstatuscallback = process.env.RECORDINGSTATUSURL || '/recordstatus';
   var messagemaxlength        = process.env.MESSAGEMAXLENGTH ? parseInt(process.env.MESSAGEMAXLENGTH) : 30;
 
   var now = moment().tz(timezone);
