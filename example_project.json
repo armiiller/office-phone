@@ -1,0 +1,8 @@
+{
+  "name": "office-phone",
+  "description": "Work phone for business using Node.js, Apex, Twilio, and AWS Lambda",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::000000000000:role/office-phone_lambda_function",
+  "environment": {}
+}
