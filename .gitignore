@@ -1,3 +1,6 @@
+# don't want the open source community to have my settings :)
+project.json
+
 # Logs
 logs
 *.log
@@ -56,4 +59,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
