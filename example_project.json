@@ -7,6 +7,8 @@
   "environment": {
     "COMPANYNAME": "PagerTree",
     "NUMBER": "+15555555555",
-    "SNSARN": "arn:aws:sns:<region>:000000000000:notify-me"
+    "RECORDURL": "/prod/record",
+    "RECORDINGSTATUSURL": "/prod/recordstatus",
+    "SNSARN": "arn:aws:sns:<region>:000000000000:office-phone"
   }
 }

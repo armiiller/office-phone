@@ -16,10 +16,10 @@
     "VOICEURL": "https://<your_url>/phone-call-recording.mp3",
     "NOANSWERURL": "https://<your_url>/no-answer.mp3",
     "THANKSFORMESSAGEURL": "https://<your_url>/thanks-for-message.mp3",
-    "RECORDURL": "https://<gatewayid>.execute-api.<region>.amazonaws.com/production/record",
-    "RECORDINGSTATUSURL": "https://<gatewayid>.execute-api.<region>.amazonaws.com/production/recordstatus",
+    "RECORDURL": "https://<gatewayid>.execute-api.<region>.amazonaws.com/<stagename>/record",
+    "RECORDINGSTATUSURL": "https://<gatewayid>.execute-api.<region>.amazonaws.com/<stagename>/recordstatus",
     "DIALTIMEOUT": "15",
     "MESSAGEMAXLENGTH": "30",
-    "SNSARN": "arn:aws:sns:<region>:000000000000:notify-me"
+    "SNSARN": "arn:aws:sns:<region>:000000000000:office-phone"
   }
 }
